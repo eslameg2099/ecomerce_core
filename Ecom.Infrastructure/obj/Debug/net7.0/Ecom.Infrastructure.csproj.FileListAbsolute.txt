@@ -1,0 +1,17 @@
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\bin\Debug\net7.0\Ecom.Infrastructure.deps.json
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\bin\Debug\net7.0\Ecom.Infrastructure.runtimeconfig.json
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\bin\Debug\net7.0\Ecom.Infrastructure.dll
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\bin\Debug\net7.0\Ecom.Infrastructure.pdb
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\bin\Debug\net7.0\Ecom.Core.dll
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\bin\Debug\net7.0\Ecom.Core.pdb
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.AssemblyInfo.cs
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.csproj.CopyComplete
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.dll
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\refint\Ecom.Infrastructure.dll
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.pdb
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\Ecom.Infrastructure.genruntimeconfig.cache
+C:\Users\Eslam Ahmed\source\repos\ecomerce\Ecom.Infrastructure\obj\Debug\net7.0\ref\Ecom.Infrastructure.dll

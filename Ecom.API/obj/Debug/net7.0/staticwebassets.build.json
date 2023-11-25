@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "rD6sTQICCEcVBgFBJAhbAs1WUfETAUnMBe0lwkTOFcA=",
+  "Source": "Ecom.API",
+  "BasePath": "_content/Ecom.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Ecom.API\\wwwroot",
+      "Source": "Ecom.API",
+      "ContentRoot": "C:\\Users\\Eslam Ahmed\\source\\repos\\ecomerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
