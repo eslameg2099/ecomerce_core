@@ -2,6 +2,7 @@
 using Ecom.Core.Dtos;
 using Ecom.Core.Entities;
 using Ecom.Core.Interfaces;
+using Ecom.Core.Sharing;
 using Ecom.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
@@ -28,8 +29,42 @@ namespace Ecom.Infrastructure.Repositories
             _mapper = mapper;
         }
 
-        public async Task<bool> AddAsync(CreateProductDto dto)
+        public async Task<ReturnProductDto> GetAllAsync(ProductParams productParams)
         {
+
+            var result_ = new ReturnProductDto();
+            var query = await _context.Products
+                .Include(x => x.Category)
+                .AsNoTracking()
+                .ToListAsync();
+            if (!string.IsNullOrEmpty(productParams.Search))
+                query = query.Where(x => x.Name.ToLower().Contains(productParams.Search)).ToList();
+
+            if(productParams.CategoryId.HasValue)
+                query = query.Where(x => x.CategoryId == productParams.CategoryId.Value).ToList();
+
+
+            if (!string.IsNullOrEmpty(productParams.Sort))
+            {
+                query = productParams.Sort switch
+                {
+                    "PriceAsc" => query.OrderBy(x => x.Price).ToList(),
+                    "PriceDesc" => query.OrderByDescending(x => x.Price).ToList(),
+                    _ => query.OrderBy(x => x.Name).ToList(),
+                };
+            }
+            result_.TotalItems = query.Count;
+
+            query = query.Skip((productParams.PageSize) * (productParams.PageNumber - 1)).Take(productParams.PageSize).ToList();
+
+            result_.ProductDtos = _mapper.Map<List<ProductDto>>(query);
+            return result_;
+
+
+
+        }
+        public async Task<bool> AddAsync(CreateProductDto dto)
+           {
 
             var filePath = "";
             if (dto.image is not null)
